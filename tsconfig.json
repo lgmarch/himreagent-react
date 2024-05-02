@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    // Для библиотек, которые не поддерживают дефолтеый экспорт (default export)
+    "allowSyntheticDefaultImports": true,
+    // esModuleInterop позволяет работать с пакетами commonJS, используя import, export
+    "esModuleInterop": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+    },
+  },
+}
