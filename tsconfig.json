@@ -4,8 +4,12 @@
     "noImplicitAny": true,
     "module": "ESNext",
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"],
+    },
     "moduleResolution": "node",
     // Для библиотек, которые не поддерживают дефолтеый экспорт (default export)
     "allowSyntheticDefaultImports": true,
